@@ -26,9 +26,9 @@ export default class WebView extends alt.WebView {
     close () {
         enableChat(true)
         alt.showCursor(false)
-        setTimeout(() => {
+        //setTimeout(() => {
             native.setPlayerControl(alt.Player.local.scriptID, true, 1)
-        }, 100)
+        //}, 100)
         alt.clearEveryTick(this.disablePauseMenu)
         this.destroy()
         alt.off("keydown", unlockCam)
