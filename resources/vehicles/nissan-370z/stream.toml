@@ -1,0 +1,18 @@
+files = [
+	"stream/assets/*"
+]
+
+[meta]
+"stream/carcols.meta" = "CARCOLS_FILE"
+"stream/carvariations.meta" = "VEHICLE_VARIATION_FILE"
+#"stream/dlctext.meta" = "VEHICLE_VARIATION_FILE"
+"stream/handling.meta" = "HANDLING_FILE"
+"stream/vehicles.meta" = "VEHICLE_METADATA_FILE"
+
+"stream/audio/sfx/dlc_z33u2" = "AUDIO_WAVEPACK"
+"stream/audio/z33u2_game.dat" = "AUDIO_GAMEDATA"
+"stream/audio/z33u2_sounds.dat" = "AUDIO_SOUNDDATA"
+#	"stream/audio/z33u2_amp.dat" = "AUDIO_SYNTHDATA"
+
+[gxt]
+"370z" = "Nissan 370Z"
