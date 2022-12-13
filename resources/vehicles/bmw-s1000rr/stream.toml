@@ -1,0 +1,19 @@
+files = [
+	"stream/assets/*"
+]
+
+[meta]
+"stream/carcols.meta" = "CARCOLS_FILE"
+"stream/carvariations.meta" = "VEHICLE_VARIATION_FILE"
+"stream/dlctext.meta" = "VEHICLE_VARIATION_FILE"
+"stream/handling.meta" = "HANDLING_FILE"
+#"stream/vehiclelayouts.meta" = "VEHICLE_LAYOUTS_FILE"
+"stream/vehicles.meta" = "VEHICLE_METADATA_FILE"
+
+"stream/audio/sfx/dlc_bmws1krreng" = "AUDIO_WAVEPACK"
+"stream/audio/bmws1krreng_game.dat" = "AUDIO_GAMEDATA"
+"stream/audio/bmws1krreng_sounds.dat" = "AUDIO_SOUNDDATA"
+"stream/audio/bmws1krreng_amp.dat" = "AUDIO_SYNTHDATA"
+
+[gxt]
+"s1000rr" = "BMW S1000RR"
