@@ -1,0 +1,5 @@
+client-files = [
+    "stream/*"
+]
+main = "stream.toml"
+type = "dlc"
