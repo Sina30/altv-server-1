@@ -1,0 +1,19 @@
+files = [
+	"stream/assets/*"
+]
+
+[meta]
+"stream/carcols.meta" = "CARCOLS_FILE"
+"stream/carvariations.meta" = "VEHICLE_VARIATION_FILE"
+"stream/dlctext.meta" = "VEHICLE_VARIATION_FILE"
+"stream/handling.meta" = "HANDLING_FILE"
+#"stream/vehiclelayouts.meta" = "VEHICLE_LAYOUTS_FILE"
+"stream/vehicles.meta" = "VEHICLE_METADATA_FILE"
+
+"stream/audio/sfx/dlc_r352sound" = "AUDIO_WAVEPACK"
+"stream/audio/r352sound_game.dat" = "AUDIO_GAMEDATA"
+"stream/audio/r352sound_sounds.dat" = "AUDIO_SOUNDDATA"
+#	"stream/audio/r352sound_amp.dat" = "AUDIO_SYNTHDATA"
+
+[gxt]
+"gtr" = "Nissan GTR-R35"
