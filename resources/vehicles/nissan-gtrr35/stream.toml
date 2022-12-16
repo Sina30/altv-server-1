@@ -10,10 +10,10 @@ files = [
 #"stream/vehiclelayouts.meta" = "VEHICLE_LAYOUTS_FILE"
 "stream/vehicles.meta" = "VEHICLE_METADATA_FILE"
 
-"stream/audio/sfx/dlc_r352sound" = "AUDIO_WAVEPACK"
-"stream/audio/r352sound_game.dat" = "AUDIO_GAMEDATA"
-"stream/audio/r352sound_sounds.dat" = "AUDIO_SOUNDDATA"
-#	"stream/audio/r352sound_amp.dat" = "AUDIO_SYNTHDATA"
+"stream/audio/sfx/dlc_r35sound" = "AUDIO_WAVEPACK"
+"stream/audio/r35sound_game.dat" = "AUDIO_GAMEDATA"
+"stream/audio/r35sound_sounds.dat" = "AUDIO_SOUNDDATA"
+#	"stream/audio/r35sound_amp.dat" = "AUDIO_SYNTHDATA"
 
 [gxt]
 "gtr" = "Nissan GTR-R35"

@@ -9,6 +9,8 @@ files = [
 "stream/handling.meta" = "HANDLING_FILE"
 "stream/vehicles.meta" = "VEHICLE_METADATA_FILE"
 
+#"stream/effect/veh_toysupmk4.ypt" = "PTFXASSETINFO_FILE"
+
 "stream/audio/sfx/dlc_toysupmk4" = "AUDIO_WAVEPACK"
 "stream/audio/toysupmk4_game.dat" = "AUDIO_GAMEDATA"
 "stream/audio/toysupmk4_sounds.dat" = "AUDIO_SOUNDDATA"
