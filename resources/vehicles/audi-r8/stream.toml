@@ -1,0 +1,19 @@
+files = [
+	"stream/assets/*"
+]
+
+[meta]
+"stream/carcols.meta" = "CARCOLS_FILE"
+"stream/carvariations.meta" = "VEHICLE_VARIATION_FILE"
+"stream/dlctext.meta" = "VEHICLE_VARIATION_FILE"
+"stream/handling.meta" = "HANDLING_FILE"
+#"stream/vehiclelayouts.meta" = "VEHICLE_LAYOUTS_FILE"
+"stream/vehicles.meta" = "VEHICLE_METADATA_FILE"
+
+"stream/audio/sfx/dlc_audr8tteng" = "AUDIO_WAVEPACK"
+"stream/audio/audr8tteng_game.dat" = "AUDIO_GAMEDATA"
+"stream/audio/audr8tteng_sounds.dat" = "AUDIO_SOUNDDATA"
+"stream/audio/audr8tteng_amp.dat" = "AUDIO_SYNTHDATA"
+
+[gxt]
+"r820" = "Audi R8"
