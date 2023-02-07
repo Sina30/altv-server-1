@@ -16,4 +16,5 @@ files = [
 #	"stream/audio/CARNAME_amp.dat" = "AUDIO_SYNTHDATA"
 
 [gxt]
-"myveh" = "My vehicle"
+"2017chiron" = "Bugatti Chiron"
+"2019chiron" = "Bugatti Chiron SS"
