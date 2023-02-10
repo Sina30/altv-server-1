@@ -1,0 +1,11 @@
+files = [
+   "stream/*"
+]
+
+[meta]
+   "stream/lara.meta" = "PED_METADATA_FILE"
+
+[gxt]
+   "LaraA" = "Lara Croft Casual Set A"
+   "LaraB" = "Lara Croft Casual Set B"
+   "LaraC" = "Lara Croft Tactical Outfit"

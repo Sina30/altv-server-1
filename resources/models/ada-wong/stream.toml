@@ -1,0 +1,11 @@
+files = [
+   "stream/*"
+]
+
+[meta]
+   "stream/Ada.meta" = "PED_METADATA_FILE"
+   # "stream/AdaR6E.meta" = "PED_METADATA_FILE"
+
+[gxt]
+   "Ada" = "Ada Wong"
+   "AdaRE6" = "Ada Wong Jill Outfit"
