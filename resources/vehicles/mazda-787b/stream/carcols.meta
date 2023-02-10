@@ -414,27 +414,6 @@
           <weight value="0" />
           <type>VMT_SUSPENSION</type>
         </Item>
-        <Item>
-          <identifier />
-          <modifier value="40" />
-          <audioApply value="1.000000" />
-          <weight value="0" />
-          <type>VMT_SUSPENSION</type>
-        </Item>
-        <Item>
-          <identifier />
-          <modifier value="60" />
-          <audioApply value="1.000000" />
-          <weight value="0" />
-          <type>VMT_SUSPENSION</type>
-        </Item>
-        <Item>
-          <identifier />
-          <modifier value="100" />
-          <audioApply value="1.000000" />
-          <weight value="0" />
-          <type>VMT_SUSPENSION</type>
-        </Item>
       </statMods>
       <slotNames />
         <Item>
