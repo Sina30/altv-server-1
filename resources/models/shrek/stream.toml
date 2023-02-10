@@ -1,0 +1,9 @@
+files = [
+   "stream/*"
+]
+
+[meta]
+   "stream/shrek.meta" = "PED_METADATA_FILE"
+
+[gxt]
+   "shrek" = "Shrek"
