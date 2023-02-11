@@ -1,0 +1,9 @@
+files = [
+   "stream/*"
+]
+
+[meta]
+   "stream/STR_ConnorAC3.meta" = "PED_METADATA_FILE"
+
+[gxt]
+   "STR_ConnorAC3" = "Connor Kenway"

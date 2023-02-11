@@ -1,0 +1,9 @@
+files = [
+   "stream/*"
+]
+
+[meta]
+   "stream/mr-bean.meta" = "PED_METADATA_FILE"
+
+[gxt]
+   "mr-bean" = "MR Bean"

@@ -1,0 +1,9 @@
+files = [
+   "stream/*"
+]
+
+[meta]
+   "stream/PinkPanther.meta" = "PED_METADATA_FILE"
+
+[gxt]
+   "PinkPanther" = "Pink Panther"

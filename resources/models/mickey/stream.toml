@@ -1,0 +1,9 @@
+files = [
+   "stream/*"
+]
+
+[meta]
+   "stream/MickeyMouse.meta" = "PED_METADATA_FILE"
+
+[gxt]
+   "MickeyMouse" = "Name"

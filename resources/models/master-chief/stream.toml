@@ -1,0 +1,9 @@
+files = [
+   "stream/*"
+]
+
+[meta]
+   "stream/master-chief.meta" = "PED_METADATA_FILE"
+
+[gxt]
+   "master-chief" = "Master Chief"

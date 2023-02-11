@@ -1,0 +1,9 @@
+files = [
+   "stream/*"
+]
+
+[meta]
+   "stream/jill-valentine.meta" = "PED_METADATA_FILE"
+
+[gxt]
+   "jill-valentine" = "Jill Valentine"

@@ -1,0 +1,9 @@
+files = [
+   "stream/*"
+]
+
+[meta]
+   "stream/navyseal.meta" = "PED_METADATA_FILE"
+
+[gxt]
+   "navyseal" = "SEALS"

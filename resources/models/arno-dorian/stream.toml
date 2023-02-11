@@ -1,0 +1,9 @@
+files = [
+   "stream/*"
+]
+
+[meta]
+   "stream/acuarno.meta" = "PED_METADATA_FILE"
+
+[gxt]
+   "acuarno" = "Arno Dorian"
