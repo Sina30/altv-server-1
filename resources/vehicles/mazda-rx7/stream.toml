@@ -3,17 +3,17 @@ files = [
 ]
 
 [meta]
-"stream/carcols.meta" = "CARCOLS_FILE"
-"stream/carvariations.meta" = "VEHICLE_VARIATION_FILE"
-"stream/dlctext.meta" = "VEHICLE_VARIATION_FILE"
-"stream/handling.meta" = "HANDLING_FILE"
-#"stream/vehiclelayouts.meta" = "VEHICLE_LAYOUTS_FILE"
-"stream/vehicles.meta" = "VEHICLE_METADATA_FILE"
+	"stream/carcols.meta" = "CARCOLS_FILE"
+	"stream/carvariations.meta" = "VEHICLE_VARIATION_FILE"
+	"stream/dlctext.meta" = "VEHICLE_VARIATION_FILE"
+	"stream/handling.meta" = "HANDLING_FILE"
+	#"stream/vehiclelayouts.meta" = "VEHICLE_LAYOUTS_FILE"
+	"stream/vehicles.meta" = "VEHICLE_METADATA_FILE"
 
-"stream/audio/sfx/dlc_rotary7" = "AUDIO_WAVEPACK"
-"stream/audio/rotary7_game.dat" = "AUDIO_GAMEDATA"
-"stream/audio/rotary7_sounds.dat" = "AUDIO_SOUNDDATA"
-#	"stream/audio/rotary7_amp.dat" = "AUDIO_SYNTHDATA"
+	"stream/audio/sfx/dlc_rx7bpeng" = "AUDIO_WAVEPACK"
+	"stream/audio/rx7bpeng_game.dat" = "AUDIO_GAMEDATA"
+	"stream/audio/rx7bpeng_sounds.dat" = "AUDIO_SOUNDDATA"
+	"stream/audio/rx7bpeng_amp.dat" = "AUDIO_SYNTHDATA"
 
 [gxt]
-"fd" = "Mazda RX7"
+	"fd" = "Mazda RX7"
