@@ -1,0 +1,9 @@
+files = [
+   "stream/*"
+]
+
+[meta]
+   "stream/deadpool.meta" = "PED_METADATA_FILE"
+
+[gxt]
+   "deadpool" = "Deadpool"
