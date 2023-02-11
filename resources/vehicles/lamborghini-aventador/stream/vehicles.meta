@@ -116,14 +116,6 @@
   </InitDatas>
   <txdRelationships>
     <Item>
-      <parent>vehshare</parent>
-      <child>vehshare_truck</child>
-    </Item>
-    <Item>
-      <parent>vehshare_truck</parent>
-      <child>vehshare_worn</child>
-    </Item>
-    <Item>
       <parent>vehicles_race_generic</parent>
       <child>aventador</child>
     </Item>
