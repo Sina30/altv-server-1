@@ -1,0 +1,19 @@
+files = [
+	"stream/assets/*"
+]
+
+[meta]
+	"stream/carcols.meta" = "CARCOLS_FILE"
+	"stream/carvariations.meta" = "VEHICLE_VARIATION_FILE"
+	"stream/dlctext.meta" = "VEHICLE_VARIATION_FILE"
+	"stream/handling.meta" = "HANDLING_FILE"
+	"stream/vehicles.meta" = "VEHICLE_METADATA_FILE"
+	# "stream/vehiclelayouts.meta" = "VEHICLE_LAYOUTS_FILE"
+
+	"stream/audio/sfx/dlc_tagt3flat6" = "AUDIO_WAVEPACK"
+	"stream/audio/tagt3flat6_game.dat" = "AUDIO_GAMEDATA"
+	"stream/audio/tagt3flat6_sounds.dat" = "AUDIO_SOUNDDATA"
+	# "stream/audio/tagt3flat6_amp.dat" = "AUDIO_SYNTHDATA"
+
+[gxt]
+	"pgt3rs19" = "Porsche 911 GT3 RS"
