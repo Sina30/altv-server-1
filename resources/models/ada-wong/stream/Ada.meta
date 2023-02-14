@@ -28,7 +28,7 @@
          <PerceptionInfo>DEFAULT_PERCEPTION</PerceptionInfo>
          <DefaultBrawlingStyle>BS_AI</DefaultBrawlingStyle>
          <DefaultUnarmedWeapon>WEAPON_UNARMED</DefaultUnarmedWeapon>
-         <Personality>SERVICEMALES</Personality>
+         <Personality>MP_F_Freemode</Personality>
          <CombatInfo>DEFAULT</CombatInfo>
          <VfxInfoName>VFXPEDINFO_HUMAN_GENERIC</VfxInfoName>
          <AmbientClipsForFlee>FLEE</AmbientClipsForFlee>
@@ -66,7 +66,7 @@
          <PerceptionInfo>DEFAULT_PERCEPTION</PerceptionInfo>
          <DefaultBrawlingStyle>BS_AI</DefaultBrawlingStyle>
          <DefaultUnarmedWeapon>WEAPON_UNARMED</DefaultUnarmedWeapon>
-         <Personality>SERVICEMALES</Personality>
+         <Personality>MP_F_Freemode</Personality>
          <CombatInfo>DEFAULT</CombatInfo>
          <VfxInfoName>VFXPEDINFO_HUMAN_GENERIC</VfxInfoName>
          <AmbientClipsForFlee>FLEE</AmbientClipsForFlee>
