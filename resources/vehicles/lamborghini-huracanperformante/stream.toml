@@ -3,17 +3,17 @@ files = [
 ]
 
 [meta]
-"stream/carcols.meta" = "CARCOLS_FILE"
-"stream/carvariations.meta" = "VEHICLE_VARIATION_FILE"
-"stream/dlctext.meta" = "VEHICLE_VARIATION_FILE"
-"stream/handling.meta" = "HANDLING_FILE"
-#"stream/vehiclelayouts.meta" = "VEHICLE_LAYOUTS_FILE"
-"stream/vehicles.meta" = "VEHICLE_METADATA_FILE"
+	"stream/carcols.meta" = "CARCOLS_FILE"
+	"stream/carvariations.meta" = "VEHICLE_VARIATION_FILE"
+	"stream/dlctext.meta" = "VEHICLE_VARIATION_FILE"
+	"stream/handling.meta" = "HANDLING_FILE"
+	#"stream/vehiclelayouts.meta" = "VEHICLE_LAYOUTS_FILE"
+	"stream/vehicles.meta" = "VEHICLE_METADATA_FILE"
 
-#	"stream/audio/sfx/dlc_huracanv10" = "AUDIO_WAVEPACK"
-#	"stream/audio/huracanv10_game.dat" = "AUDIO_GAMEDATA"
-#	"stream/audio/huracanv10_sounds.dat" = "AUDIO_SOUNDDATA"
-#	"stream/audio/huracanv10_amp.dat" = "AUDIO_SYNTHDATA"
+	"stream/audio/sfx/dlc_lg59hurv10" = "AUDIO_WAVEPACK"
+	"stream/audio/lg59hurv10_game.dat" = "AUDIO_GAMEDATA"
+	"stream/audio/lg59hurv10_sounds.dat" = "AUDIO_SOUNDDATA"
+	# "stream/audio/lg59hurv10_amp.dat" = "AUDIO_SYNTHDATA"
 
 [gxt]
-"18performante" = "Lamborghini Huracan Performante"
+	"18performante" = "Lamborghini Huracan Performante"
