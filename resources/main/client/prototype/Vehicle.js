@@ -37,7 +37,7 @@ alt.Vehicle.prototype.setStock = function () {
             case 20:
             //  case 21: ??
             case 22:
-                this.toogleMod(modType, false);
+                this.toggleMod(modType, false);
                 break;
 
             default:
@@ -81,7 +81,7 @@ alt.Vehicle.prototype.setMod = function (modType, modId) {
     native.setVehicleMod(this, modType, modId, false);
 };
 
-alt.Vehicle.prototype.toogleMod = function (modType, state) {
+alt.Vehicle.prototype.toggleMod = function (modType, state) {
     native.toggleVehicleMod(this, modType, state);
 };
 
@@ -138,7 +138,7 @@ alt.Vehicle.prototype.setAllMod = function (modsData) {
                 //  case 20: //Custom Tires Smoke
                 //  case 21: ??
                 //  case 22: //Xenon
-                this.toogleMod(modType, num);
+                this.toggleMod(modType, num);
                 break;
 
             case 48:

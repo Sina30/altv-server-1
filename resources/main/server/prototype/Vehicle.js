@@ -1,10 +1,5 @@
 import * as alt from "alt-server";
-import * as chat from "chat";
-import * as db from "database";
-
-function log(msg) {
-    alt.log("~y~" + msg);
-}
+import * as db from "../database/index.js";
 
 alt.Vehicle.prototype.init = function () {
     this.manualEngineControl = true;

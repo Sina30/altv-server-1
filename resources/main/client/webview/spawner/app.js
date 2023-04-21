@@ -80,7 +80,7 @@ alt.on("garageList", (res) => {
         // img.src += `${path}${veh.model}.webp`;
         img.id = veh.id;
         // div.querySelector("strong").innerHTML = veh.DisplayName;
-        img.onclick = () => alt.emit("spawnGarageVehicle", img.id);
+        img.onclick = () => alt.emit("spawnSavedVehicle", img.id);
         div.querySelector("strong").innerHTML = `[${veh.id}] ${veh.model}`;
         div.id = veh.model;
         garageDiv.append(div);

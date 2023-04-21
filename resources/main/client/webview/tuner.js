@@ -6,7 +6,7 @@ import "./Vehicle";
 
 const player = alt.Player.local;
 
-let webview = new alt.WebView("http://resource/apps/tuner/index.html", false);
+let webview = new alt.WebView("http://resource/client/webview/tuner/index.html", false);
 webview.isVisible = false;
 
 webview.on("startApp", startApp);
@@ -14,17 +14,11 @@ webview.on("exit", close);
 webview.on("restore", restoreAll);
 webview.on("stock", setStock);
 webview.on("setMod", (modType, modId) => player.vehicle.setMod(modType, modId));
-webview.on("toogleMod", (modType, state) => player.vehicle.toogleMod(modType, state));
+webview.on("toogleMod", (modType, state) => player.vehicle.toggleMod(modType, state));
 webview.on("setWheels", (wheelsData) => player.vehicle.setWheels(wheelsData));
 webview.on("setColors", (colorsData) => player.vehicle.setColors(colorsData));
 webview.on("setNeons", (neonsData) => player.vehicle.setNeons(neonsData));
 webview.on("setPlate", (plateData) => player.vehicle.setPlate(plateData));
-
-alt.on("carManager:tuner", open);
-
-function keyHandler(key) {
-    if (key == 27) close(); // ESC
-}
 
 function setCamPos(heading, pitch, scalingFactor = 0.5) {
     //  console.log(heading, pitch);
@@ -54,30 +48,42 @@ function camByApp(app) {
 }
 
 function open() {
-    if (webview.isVisible) return;
-    webview.toogle(true);
-    webview.tunerControlsDisabled(false);
-    alt.on("keyup", keyHandler);
-    player.vehicle.storeData();
-    native.freezeEntityPosition(player.vehicle, true);
-    native.setVehicleLights(player.vehicle, 2); //  Enable lights
-    startApp("mods");
+    if (!webview.isVisible) {
+        webview.toggle(true);
+        webview.toggleTunerControls(false);
+        alt.on("keyup", keyHandler);
+        player.vehicle.storeData();
+        native.freezeEntityPosition(player.vehicle, true);
+        native.setVehicleLights(player.vehicle, 2); //  Enable lights
+        startApp("mods");
+    }
 }
 
 function close() {
-    if (!webview.isVisible) return;
-    webview.toogle(false);
-    webview.tunerControlsDisabled(true);
-    alt.off("keyup", keyHandler);
-    native.freezeEntityPosition(player.vehicle, false);
-    const speed = player.vehicle.storedData.speed;
-    native.setVehicleForwardSpeed(player.vehicle, speed);
-    native.setVehicleLights(player.vehicle, 0); //  Release lights
-    const pitch = native.getGameplayCamRelativePitch();
-    const heading = speed > 1 ? 0 : native.getGameplayCamRelativeHeading();
-    setCamPos(heading, pitch + 2, 1); //  Remove slow effect
-    player.vehicle.storedData = null;
-    sendModsToServer();
+    if (webview.isVisible) {
+        webview.toggle(false);
+        webview.toggleTunerControls(true);
+        alt.off("keyup", keyHandler);
+        native.freezeEntityPosition(player.vehicle, false);
+        const speed = player.vehicle.storedData.speed;
+        native.setVehicleForwardSpeed(player.vehicle, speed);
+        native.setVehicleLights(player.vehicle, 0); //  Release lights
+        const pitch = native.getGameplayCamRelativePitch();
+        const heading = speed > 1 ? 0 : native.getGameplayCamRelativeHeading();
+        setCamPos(heading, pitch + 2, 1); //  Remove slow effect
+        player.vehicle.storedData = null;
+        sendModsToServer();
+    }
+}
+/**
+ * @param {boolean} state
+ */
+export function toggle(state) {
+    if (state && !webview.isVisible) {
+        open();
+    } else if (!state && webview.isVisible) {
+        close();
+    }
 }
 
 function dataByApp(app) {
