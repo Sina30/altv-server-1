@@ -7,7 +7,7 @@ files = [
 	"stream/carvariations.meta" = "VEHICLE_VARIATION_FILE"
 	"stream/dlctext.meta" = "VEHICLE_VARIATION_FILE"
 	"stream/handling.meta" = "HANDLING_FILE"
-	#"stream/vehiclelayouts.meta" = "VEHICLE_LAYOUTS_FILE"
+	"stream/vehiclelayouts.meta" = "VEHICLE_LAYOUTS_FILE"
 	"stream/vehicles.meta" = "VEHICLE_METADATA_FILE"
 
 	"stream/audio/sfx/dlc_rx7bpeng" = "AUDIO_WAVEPACK"

@@ -17,8 +17,7 @@
       <ptfxAssetName>null</ptfxAssetName>
       <!-- <audioNameHash>LE7B</audioNameHash> -->
       <audioNameHash>lg28cst26b</audioNameHash>
-      <!-- <layout>LAYOUT_LOW_RHD</layout> -->
-      <layout>LAYOUT_LOW</layout>
+      <layout>LAYOUT_LOW_RHD</layout>
       <coverBoundOffsets>LE7B_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
       <scenarioLayout />

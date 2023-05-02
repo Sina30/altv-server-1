@@ -16,8 +16,7 @@
       <animConvRoofWindowsAffected />
       <ptfxAssetName>null</ptfxAssetName>
       <audioNameHash>sultan</audioNameHash>
-      <!--<layout>LAYOUT_STD_RHDI</layout>-->
-      <layout>LAYOUT_LOW_RESTRICTED</layout>
+      <layout>LAYOUT_STD_RHDI</layout>
       <coverBoundOffsets>RHDI_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
       <scenarioLayout />
